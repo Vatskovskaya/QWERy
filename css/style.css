@@ -1,0 +1,178 @@
+body{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+
+	background-color: #000;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p,li,ul,ol,img,a,input{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+li{
+	list-style: none;	
+}
+
+h2{
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 87px;
+}
+.large-container{
+	max-width: 1755px;
+	margin: 0 auto;
+}
+.container{
+	max-width: 1461px;
+	margin: 0 auto;
+}
+
+.orange-title{
+	color: #FFC178;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 6px;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 30px;
+
+	padding-left: 100px;
+}
+.orange-title::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	border-bottom: 2px solid #FFC178;
+	display: block;
+	width: 72px;
+}
+/* ------------ header section --------- */
+.page-header{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	
+}
+.header__navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__navigation-list{
+	display: flex;
+	column-gap: 50px;
+
+}
+.search{
+	font-size: 17px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+    column-gap: 14px;
+}
+
+/* ------------ main section ------------- */
+.main-section{
+	background-image: url(../img/Background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height: 100vh;
+	padding-top: 270px;
+}
+.main-section .large-container{
+	position: relative;
+}
+.socials{
+	position: absolute;
+	top: 12%;
+	left: 0;
+
+	display: flex;
+    column-gap: 10px;
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+.socials a{
+	transform: rotate(270deg);
+    margin-left: 15px;	
+}
+.main-section__info{
+	max-width: 870px;
+	margin: 0 auto;
+	text-align: center;
+
+	position: relative;
+}
+.main-section__info .orange-title{
+	text-align: left;
+}
+.main-section__info h1{
+	font-size: 88px;
+	line-height: 100px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: left;
+
+	margin-bottom: 125px;
+}
+.main-section__info a{
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+
+	text-align: center;
+}
+.main-section__info a::after{
+	content: url(../img/icons/arrow.png);
+	position: absolute;
+	right: -25px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 16px;
+	height: 24px;
+}
+
+/* ------------ Tenggara Section ------------- */
+.tenggara__wrapper{
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+
+	padding-bottom: 250px;
+}
+.tenggara__info{
+	flex-basis: 632px;
+	flex-grow: 0;
+	flex-shrink: 1;
+}
+
+.tenggara__info h2{
+	margin-bottom: 27px;
+}
+.tenggara__info p{
+	margin-bottom: 25px;
+}
+.tenggara__info a{
+	position: relative;
+}
+
+.tenggara__info a::after{
+	content: url();
+	position: absolute;
+}
