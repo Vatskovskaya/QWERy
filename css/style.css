@@ -1,9 +1,13 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	position: relative;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	line-height: 32px;
 	font-weight: 600;
+	
 
 	background-color: #000;
 	color: #fff;
@@ -19,6 +23,7 @@ a{
 img{
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 li{
 	list-style: none;	
@@ -34,9 +39,10 @@ h2{
 	margin: 0 auto;
 	padding: 0 20px;
 }
-.container{
-	max-width: 1461px;
+.container{ 	
+	max-width: 1431px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .orange-title{
@@ -97,7 +103,6 @@ h2{
 .read_more{
 	color: #FFC178;
 	position: relative;
-
 }
 .read_more::after{
 	content: url(../img/icons/arrow-right.png);
@@ -141,7 +146,6 @@ h2{
 	top: 40px;
 	left: 0;
 	width: 100%;
-	
 }
 .header__navigation{
 	display: flex;
@@ -151,7 +155,6 @@ h2{
 .header__navigation-list{
 	display: flex;
 	column-gap: 50px;
-
 }
 .search{
 	font-size: 17px;
@@ -166,6 +169,7 @@ h2{
 	background-image: url(../img/Background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: bottom;
 
 	height: 100vh;
 	padding-top: 270px;
@@ -176,7 +180,7 @@ h2{
 .socials{
 	position: absolute;
 	top: 12%;
-	left: 0;
+	/* left: 0; */
 
 	display: flex;
     column-gap: 10px;
@@ -222,7 +226,6 @@ h2{
 	width: 16px;
 	height: 24px;
 }
-
 /* ------------ Tenggara Section ------------- */
 .tenggara__wrapper{
 	display: flex;
@@ -233,8 +236,6 @@ h2{
 }
 .tenggara__info{
 	flex-basis: 632px;
-	flex-grow: 0;
-	flex-shrink: 1;
 }
 
 .tenggara__info h2{
@@ -410,14 +411,18 @@ h2{
 .footer__info{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .footer__policy{
 	font-size: 15px;
 	line-height: 20px;
 	display: flex;
-
+	align-items: center;
+    column-gap: 20px;
 }
 .footer__socials{
 	display: flex;
+	align-items: center;
+    column-gap: 20px;
 }
