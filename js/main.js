@@ -6,4 +6,11 @@ $(document).ready(function(){
         prevArrow:"<button type='button' class='slick-prev pull-left'><img src='../img/icons/prev.png'></img></button>",
         nextArrow:"<button type='button' class='slick-next pull-right'><img src='../img/icons/next.png'></img></button>"
     });
+
+    $('.menu-btn').on('click', function(){
+        $(this).toggleClass('active');
+        $('.header__navigation-list').toggleClass('active');
+    })
+
+
   });
