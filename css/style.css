@@ -200,6 +200,9 @@ h2{
 	display: flex;
 	column-gap: 50px;
 }
+.header__navigation-list li:hover a{
+	text-decoration: underline;
+}
 .search{
 	font-size: 17px;
 	line-height: 23px;
@@ -453,13 +456,11 @@ h2{
 	font-weight: bold;
 	color: #FFD1A0;
 }
-
 .footer__info{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 .footer__policy{
 	font-size: 15px;
 	line-height: 20px;

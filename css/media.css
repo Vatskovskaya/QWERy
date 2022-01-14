@@ -185,6 +185,7 @@
         flex-direction: column;
         flex-basis: 232px;
         align-items: center;
+    }
 }
 /*768px - 480px - @media (max-width: 768px) */
 @media (max-width: 768px){
@@ -367,7 +368,6 @@
     .slick-dots li button:before {
         color: #fff;
     }
-
     .subscribe__info {
         row-gap: 20px;
         flex-direction: column;
@@ -378,7 +378,6 @@
     .footer__form p {
         text-align: center;
     }
-
     .footer__form .btn[type="submit"] {
         padding: 14px 14px;
     }
