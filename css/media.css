@@ -78,8 +78,13 @@
         display: block;
         width: 55px;
     }
+    .tenggara{
+        padding-bottom: 100px;
+    }
     .tenggara__wrapper{
         column-gap: 50px;
+    }
+    .bromo {
         padding-bottom: 100px;
     }
     .bromo__info p {
@@ -125,6 +130,61 @@
         display: block;
         width: 55px;
     }
+
+    .indonesia{
+        padding-bottom: 100px;
+    }
+    .indonesia__wrapper{
+        column-gap: 50px;
+    }
+
+    .subscribe svg{
+        width: 120px;
+    }
+    .subscribe__info span {
+        font-size: 18px;
+        line-height: 1;
+    }
+    .page-footer {
+        padding-top: 35px;
+    }
+    .footer__form p {
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 850px){
+    .footer-wrapper {
+        flex-direction: column;
+        padding-bottom: 55px;
+    }
+    .footer__form{
+        margin-bottom: 35px;
+    }
+    .footer__form {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .footer__form p {
+        display: inline-block;
+        text-transform: lowercase;
+        margin-bottom: 0px;
+    }
+    .footer__form br{
+        display: none;
+    }
+    .footer__form form {
+        display: inline-block;
+    }
+    .footer__sections-column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 232px;
+        align-items: center;
 }
 /*768px - 480px - @media (max-width: 768px) */
 @media (max-width: 768px){
@@ -184,7 +244,7 @@
         font-size: 24px;
         line-height: 1.4;
     }
-    .tenggara__wrapper{
+    .tenggara{
         padding-bottom: 80px;
     }
     .tenggara__info h2{
@@ -194,12 +254,65 @@
         max-height: 985px;
         height: 500px;
     }
+    .indonesia{
+        padding-bottom: 50px;
+    }
+    .indonesia__info h2{
+        margin-bottom: 20px;
+    }
+
+    .subscribe svg{
+        width: 100px;
+        height: 35px;
+
+        margin-bottom: 20px;
+    }
+    .subscribe__info span {
+        font-size: 18px;
+        line-height: 1;
+    }
+    .subscribe .container {
+        flex-direction: column;
+    }
+    .footer__form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__form p {
+        margin-bottom: 25px;
+    }
+    .footer__sections-column .orange-link {
+        font-size: 16px;
+    }
+    .footer__sections-column a {
+        font-size: 14px;
+        line-height: 1.6;
+        font-weight: normal;
+    }
+
+    .footer__sections {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+    .footer__sections-column {
+        display: flex;
+        flex-basis: 138px;
+        align-items: center;
+    }
 }
 
-@media (max-width: 600px){
+@media (max-width: 640px){
+    .tenggara__wrapper {
+        flex-direction: column-reverse;
+    }
     .tenggara__info {
         flex-basis: 0px;
         margin-bottom: 40px;
+    }
+    .tenggara__img img{
+        margin: 0 auto;
     }
     .bromo {
         padding-bottom: 100px;
@@ -211,8 +324,26 @@
     .bromo .responsive-orange-title::after{
         box-shadow: 1px 1px 5px rgb(255, 115, 50);
     }
+    .indonesia__wrapper {
+        flex-direction: column;
+    }
+    .indonesia__info {
+        flex-basis: 0px;
+        margin-bottom: 40px;
+    }
+    .footer-wrapper {
+        padding-bottom: 35px;
+    }
+    .footer__info {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer__sections {
+        justify-content: center;
+    }
 
 }
+/*480px - 320px - @media (max-width: 480px)*/
 @media (max-width: 480px) {
     .main-section__info h1{
         font-size: 32px;
@@ -220,7 +351,9 @@
     
         margin-bottom: 100px;
     }
-    
+    .bromo {
+        padding-bottom: 60px;
+    }
     .bromo__info h2 {
         padding: 0 20px;
     }
@@ -234,6 +367,19 @@
     .slick-dots li button:before {
         color: #fff;
     }
-    
+
+    .subscribe__info {
+        row-gap: 20px;
+        flex-direction: column;
+    }
+    .footer__form form {
+        display: flex;
+    }
+    .footer__form p {
+        text-align: center;
+    }
+
+    .footer__form .btn[type="submit"] {
+        padding: 14px 14px;
+    }
 }
-/*480px - 320px - @media (max-width: 480px)*/

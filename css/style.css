@@ -271,12 +271,14 @@ h2{
 	height: 24px;
 }
 /* ------------ Tenggara Section ------------- */
+.tenggara{
+	padding-bottom: 250px;
+}
 .tenggara__wrapper{
 	display: flex;
     align-items: center;
 	justify-content: space-between;
 	column-gap: 50px;
-	padding-bottom: 250px;
 }
 .tenggara__info{
 	flex-basis: 632px;
@@ -293,7 +295,6 @@ h2{
 .bromo{
 	padding-bottom: 227px;
 }
-
 .slick-next {
     right: 15px;
 }
@@ -441,6 +442,7 @@ h2{
 }
 .footer__sections-column a{
 	font-size: 19px;
+	line-height: 1.6;
 	font-weight: normal;
 }
 .footer__sections-column a:hover{
